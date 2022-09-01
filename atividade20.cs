@@ -18,7 +18,7 @@ class Program{
         else if(imc > 25 ){
             Console.WriteLine("Sobrepeso");
         }
-        else if(imc > 18.5){
+        else if(imc >= 18.5){
             Console.WriteLine("Peso ideal");
         }
         else if(imc < 18.5){
